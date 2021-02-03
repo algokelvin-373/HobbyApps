@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1031E7F825CAFEAB00F3C1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E7F725CAFEAB00F3C1DF /* AppDelegate.swift */; };
-		1031E7FA25CAFEAB00F3C1DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E7F925CAFEAB00F3C1DF /* SceneDelegate.swift */; };
-		1031E7FC25CAFEAB00F3C1DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E7FB25CAFEAB00F3C1DF /* ContentView.swift */; };
 		1031E7FE25CAFEAB00F3C1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1031E7FD25CAFEAB00F3C1DF /* Assets.xcassets */; };
 		1031E80125CAFEAB00F3C1DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1031E80025CAFEAB00F3C1DF /* Preview Assets.xcassets */; };
 		1031E80425CAFEAB00F3C1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1031E80225CAFEAB00F3C1DF /* LaunchScreen.storyboard */; };
@@ -120,6 +117,9 @@
 		1031E90D25CB1E6100F3C1DF /* TravelDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E8EB25CB1E6000F3C1DF /* TravelDetailPresenter.swift */; };
 		1031E90E25CB1E6100F3C1DF /* TravelFavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E8EC25CB1E6000F3C1DF /* TravelFavoritePresenter.swift */; };
 		1031E90F25CB1E6100F3C1DF /* TravelFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E8ED25CB1E6000F3C1DF /* TravelFavoriteView.swift */; };
+		1031E91425CB2E4C00F3C1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E91125CB2E4C00F3C1DF /* AppDelegate.swift */; };
+		1031E91525CB2E4C00F3C1DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E91225CB2E4C00F3C1DF /* ContentView.swift */; };
+		1031E91625CB2E4C00F3C1DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031E91325CB2E4C00F3C1DF /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,9 +134,6 @@
 
 /* Begin PBXFileReference section */
 		1031E7F425CAFEAB00F3C1DF /* Hobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hobby.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1031E7F725CAFEAB00F3C1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1031E7F925CAFEAB00F3C1DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1031E7FB25CAFEAB00F3C1DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1031E7FD25CAFEAB00F3C1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1031E80025CAFEAB00F3C1DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1031E80325CAFEAB00F3C1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -246,6 +243,9 @@
 		1031E8EB25CB1E6000F3C1DF /* TravelDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDetailPresenter.swift; sourceTree = "<group>"; };
 		1031E8EC25CB1E6000F3C1DF /* TravelFavoritePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelFavoritePresenter.swift; sourceTree = "<group>"; };
 		1031E8ED25CB1E6000F3C1DF /* TravelFavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelFavoriteView.swift; sourceTree = "<group>"; };
+		1031E91125CB2E4C00F3C1DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1031E91225CB2E4C00F3C1DF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1031E91325CB2E4C00F3C1DF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,11 +293,9 @@
 		1031E7F625CAFEAB00F3C1DF /* Hobby */ = {
 			isa = PBXGroup;
 			children = (
+				1031E91025CB2E4C00F3C1DF /* App */,
 				1031E8C625CB1E6000F3C1DF /* Module */,
 				1031E85D25CB1DA600F3C1DF /* Core */,
-				1031E7F725CAFEAB00F3C1DF /* AppDelegate.swift */,
-				1031E7F925CAFEAB00F3C1DF /* SceneDelegate.swift */,
-				1031E7FB25CAFEAB00F3C1DF /* ContentView.swift */,
 				1031E7FD25CAFEAB00F3C1DF /* Assets.xcassets */,
 				1031E80225CAFEAB00F3C1DF /* LaunchScreen.storyboard */,
 				1031E80525CAFEAB00F3C1DF /* Info.plist */,
@@ -629,6 +627,16 @@
 			path = Travel;
 			sourceTree = "<group>";
 		};
+		1031E91025CB2E4C00F3C1DF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1031E91125CB2E4C00F3C1DF /* AppDelegate.swift */,
+				1031E91225CB2E4C00F3C1DF /* ContentView.swift */,
+				1031E91325CB2E4C00F3C1DF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -764,7 +772,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1031E7F825CAFEAB00F3C1DF /* AppDelegate.swift in Sources */,
 				1031E88225CB1DC900F3C1DF /* MapViewUI.swift in Sources */,
 				1031E8FD25CB1E6100F3C1DF /* GameRouter.swift in Sources */,
 				1031E88525CB1DC900F3C1DF /* TabFavoriteViewUI.swift in Sources */,
@@ -783,6 +790,7 @@
 				1031E83D25CB16DC00F3C1DF /* GameDataSource.swift in Sources */,
 				1031E8B525CB1E4A00F3C1DF /* GameInteractor.swift in Sources */,
 				1031E8F925CB1E6100F3C1DF /* GameFavoriteView.swift in Sources */,
+				1031E91425CB2E4C00F3C1DF /* AppDelegate.swift in Sources */,
 				1031E84F25CB1B2300F3C1DF /* SportLocaleDataSource.swift in Sources */,
 				1031E8F125CB1E6100F3C1DF /* MovieView.swift in Sources */,
 				1031E8F025CB1E6100F3C1DF /* MovieRouter.swift in Sources */,
@@ -792,7 +800,6 @@
 				1031E87B25CB1DC900F3C1DF /* APITravel.swift in Sources */,
 				1031E8AE25CB1E4A00F3C1DF /* MovieInteractor.swift in Sources */,
 				1031E8FB25CB1E6100F3C1DF /* GameFavoritePresenter.swift in Sources */,
-				1031E7FA25CAFEAB00F3C1DF /* SceneDelegate.swift in Sources */,
 				1031E90125CB1E6100F3C1DF /* SportsDetailPresenter.swift in Sources */,
 				1031E88B25CB1E2D00F3C1DF /* Injection.swift in Sources */,
 				1031E8FF25CB1E6100F3C1DF /* SportFavoriteView.swift in Sources */,
@@ -800,6 +807,7 @@
 				1031E8FE25CB1E6100F3C1DF /* SportView.swift in Sources */,
 				1031E87925CB1DC900F3C1DF /* APIMovie.swift in Sources */,
 				1031E90A25CB1E6100F3C1DF /* TravelRouter.swift in Sources */,
+				1031E91625CB2E4C00F3C1DF /* SceneDelegate.swift in Sources */,
 				1031E85925CB1D4600F3C1DF /* GameEntity.swift in Sources */,
 				1031E8C025CB1E4A00F3C1DF /* TravelFavoriteProtocol.swift in Sources */,
 				1031E8B125CB1E4A00F3C1DF /* MovieFavoriteProtocol.swift in Sources */,
@@ -826,7 +834,6 @@
 				1031E8F725CB1E6100F3C1DF /* GamePresenter.swift in Sources */,
 				1031E8F425CB1E6100F3C1DF /* MovieFavoriteView.swift in Sources */,
 				1031E83925CB16DC00F3C1DF /* TravelRepository.swift in Sources */,
-				1031E7FC25CAFEAB00F3C1DF /* ContentView.swift in Sources */,
 				1031E8EE25CB1E6100F3C1DF /* MovieDetailView.swift in Sources */,
 				1031E84E25CB1B2300F3C1DF /* TravelLocaleRepository.swift in Sources */,
 				1031E90B25CB1E6100F3C1DF /* TravelDetailView.swift in Sources */,
@@ -858,6 +865,7 @@
 				1031E88125CB1DC900F3C1DF /* DescriptionViewUI.swift in Sources */,
 				1031E90925CB1E6100F3C1DF /* TravelRowsView.swift in Sources */,
 				1031E90425CB1E6100F3C1DF /* SportDetailView.swift in Sources */,
+				1031E91525CB2E4C00F3C1DF /* ContentView.swift in Sources */,
 				1031E8FA25CB1E6100F3C1DF /* GameRowsView.swift in Sources */,
 				1031E90725CB1E6100F3C1DF /* ProfileView.swift in Sources */,
 				1031E8BC25CB1E4A00F3C1DF /* SportsDetailProtocol.swift in Sources */,
